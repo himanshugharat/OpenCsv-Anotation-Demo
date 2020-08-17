@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CsvDemoReader {
-    private static final String SAMPLE_CSV_PATH="F:\\example.csv";
+    private static final String SAMPLE_CSV_PATH = "F:\\example.csv";
 
     public static void main(String[] args) throws IOException, CsvException {
         try (

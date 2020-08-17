@@ -24,7 +24,7 @@ public class OpenCSVWriter {
                     .withQuotechar(CSVWriter.NO_QUOTE_CHARACTER)
                     .build();
             List<CSVUser> csvUserList = new ArrayList<>();
-            csvUserList.add(new CSVUser("himanshugharat", "himanshugharat@gmail.com", "111111111","india"));
+            csvUserList.add(new CSVUser("himanshugharat", "himanshugharat@gmail.com", "111111111", "india"));
             csvUserList.add(new CSVUser("himanshu", "himanshughara3t@gmail.com", "11111111133", "india"));
             beanToCsv.write(csvUserList);
 
